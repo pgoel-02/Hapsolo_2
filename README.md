@@ -6,7 +6,7 @@ HapSolo2 is developed completely in Python, and libraries used include Pandas, T
 
 This project is a part of an AI Research position that I've had at UC Davis since June 2022. HapSolo2 was co-developed by my lab partner, Mansi A. 
 ## Assembly Files
-To run both the Pandas and cuDF versions of HapSolo2, please replace the placeholder assigned to myasmFileName in pandas.ipynb and start.py with the path to your assembly file.
+To run both the Pandas and cuDF versions of HapSolo2, please replace the placeholder assigned to myasmFileName in pandas.ipynb and start.py with the path to your assembly file. The assembly file I have been using is too large to upload to GitHub. 
 
 ## pandas.ipynb
 The final cell in pandas.ipynb runs HapSolo2 using Python's multiprocessing library, spreading the workload across a specified number of cores for a set number of iterations. After completion, it returns a set number of solutions, which are genomic assemblies with the lowest costs. To successfully execute the final cell, all previous cells need to be executed in order.
