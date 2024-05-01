@@ -2,11 +2,11 @@
 
 HapSolo2 is an AI optimization approach designed for the removal of secondary haplotigs in diploid genome assembly and scaffolding processes. The method employs a forward-looking randomized hill-climbing algorithm, integrating AI techniques, to minimize the cost associated with genomic assemblies. 
 
-HapSolo2 is developed completely in Python, and libraries used include Pandas, Torch, and CuDF. This project is an extension of HapSolo, which can be found here: https://github.com/esolares/HapSolo
+HapSolo2 is developed completely in Python, and libraries used include Pandas, Torch, and cuDF. This project is an extension of HapSolo, which can be found here: https://github.com/esolares/HapSolo
 
 This project is a part of an AI Research position that I've had at UC Davis since June 2022. HapSolo2 was co-developed by my lab partner, Mansi A. 
 ## Assembly Files
-To run both the Pandas and CuDF versions of HapSolo2, please replace the placeholder assigned to myasmFileName in pandas.ipynb and start.py with the path to your assembly file.
+To run both the Pandas and cuDF versions of HapSolo2, please replace the placeholder assigned to myasmFileName in pandas.ipynb and start.py with the path to your assembly file.
 
 ## pandas.ipynb
 The final cell in pandas.ipynb runs HapSolo2 using Python's multiprocessing library, spreading the workload across a specified number of cores for a set number of iterations. After completion, it returns a set number of solutions, which are genomic assemblies with the lowest costs. To successfully execute the final cell, all previous cells need to be executed in order.
