@@ -1,6 +1,6 @@
 # HapSolo2
 
-HapSolo2 is an AI optimization approach designed for the removal of secondary haplotigs in diploid genome assembly and scaffolding processes. The method employs a forward-looking randomized hill-climbing algorithm, integrating AI techniques, to minimize the cost associated with genomic assemblies. 
+HapSolo2 is an AI optimization approach designed for the removal of secondary haplotigs in diploid genome assembly and scaffolding processes. The method employs a forward-looking randomized hill-climbing algorithm, integrating AI techniques, to minimize the cost associated with genomic assemblies. Essentially, HapSolo2 has applications to bioinformatics. 
 
 HapSolo2 is developed completely in Python, and libraries used include Pandas, Torch, and cuDF. This project is an extension of HapSolo, which can be found here: https://github.com/esolares/HapSolo
 
