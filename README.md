@@ -5,7 +5,7 @@ HapSolo2 is an AI optimization approach designed for the removal of secondary ha
 HapSolo2 is developed completely in Python, and libraries used include Pandas, Torch, and cuDF. This project is an extension of HapSolo, which can be found here: https://github.com/esolares/HapSolo
 
 This project is a part of an AI Research position that I've had at UC Davis since June 2022. HapSolo2 was co-developed by my lab partner, Mansi A. 
-## Assembly Files
+## Assembly File Placeholder
 To run both the Pandas and cuDF versions of HapSolo2, please replace the placeholder assigned to myasmFileName in pandas.ipynb and start.py with the path to an assembly file in FASTA format. The assembly file I have been using is too large to upload to GitHub. 
 
 ## pandas.ipynb
